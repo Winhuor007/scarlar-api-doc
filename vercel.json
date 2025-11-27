@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api-doc-marketplace/(.*)",
+      "destination": "/api-doc-marketplace/index.html"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+/* FIX HUGE TITLES */
+.scalar-app h1,
+.api-reference h1 {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+  margin-bottom: 12px !important;
+}
+
+/* FIX BODY FONT */
+.scalar-app *,
+.api-reference * {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+/* FIX SIDE MENU WIDTH */
+nav.api-reference__sidebar {
+  width: 260px !important;
+  min-width: 260px !important;
+}
+
+/* FIX MAIN CONTENT WIDTH */
+.api-reference__content {
+  max-width: 950px !important;
+  margin: 0 auto !important;
+}
+
+/* REMOVE UGLY GIANT SPACING */
+.api-reference .content-section {
+  padding: 10px 0 !important;
+}
+
+/* FIX VERY LONG TEXT WRAPPING */
+.api-reference * {
+  word-wrap: break-word !important;
+  white-space: normal !important;
+}
+
+/* REMOVE "Powered by Scalar" */
+.api-reference .footer {
+  display: none !important;
+}
+
+/* FIX LEFT PANEL SCROLL BAR */
+.api-reference__sidebar {
+  overflow-y: auto !important;
+}
+
+/* FIX HEADER TOOLBAR (Generate SDK/Share/Tools) */
+.api-reference__header {
+  display: none !important;
+}
+
+/* Hide "Powered by Scalar" link */
+a[href="https://www.scalar.com"],
+a[href="https://www.scalar.com"] *,
+[data-v-8817c068] a.no-underline {
+  display: none !important;
+}
+
+/* Hide the wrapper div that contains the footer */
+.api-reference__sidebar div[class*="darklight-reference"],
+.api-reference__sidebar div.border-t,
+.api-reference__sidebar div.flex.items-center {
+  display: none !important;
+}

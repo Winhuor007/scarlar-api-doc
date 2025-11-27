@@ -5,7 +5,7 @@ import { ApiReferenceReact } from '@scalar/api-reference-react';
 export default function ScalarDoc() {
   return (
     <div >
-      <ApiReferenceReact configuration={{ url: '/openapi.yaml', layout: 'modern', hideModels: true, hideClientButton: true,showDeveloperTools: "never", }} />
+      <ApiReferenceReact configuration={{ url: `${import.meta.env.BASE_URL}openapi.yaml`, layout: 'modern', hideModels: true, hideClientButton: true,showDeveloperTools: "never", }} />
     </div>
   );
 }
